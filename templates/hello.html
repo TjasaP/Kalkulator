@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Kalkulator</h1>
+    <div id="calc">
+        <form method=post action="/">
+            Izberi prvo število:<br>
+            <input type="text" name="prvo" ><br> <br>
+            Izberi računsko operacijo (+, -, *, /):<br>
+            <input type="text" name="opera"><br> <br>
+            Izberi drugo število:<br>
+            <input type="text" name="drugo"><br><br>
+            <input id="button" type="submit" value="Izračunaj">
+        </form>
+    </div>
+
+    <p> Rezultat je: <b> {{rezultat}}</b> </p>
+</body>
+</html>
+
